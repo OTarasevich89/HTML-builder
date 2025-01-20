@@ -9,7 +9,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log('Welcome! Enter a text. (Type "exit" or press Ctrl+C or Ctrl+D for exit):');
+console.log('Welcome! /nEnter a text. (Type "exit" or press Ctrl+C or Ctrl+D for exit):');
 
 const handleInput = (input) => {
   if (input.trim().toLowerCase() === 'exit') {
